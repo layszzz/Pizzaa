@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio</title>
+    <link rel="stylesheet" href="./css/estilocardapio.css">
+</head>
+<body>
+    <!-- Barra de navegação -->
+    <nav class="navbar">
+        <a href="./index.html" class="logo">
+            <img src="./img/logosemfundo2.png" alt="Logo" class="logo-img">
+        </a>
+        <h1>Cardápio</h1>
+    </nav>
+
+    <!-- Corpo do Cardápio -->
+    <div class="menu-items">
+        <div class="menu-item" id="pizza1">
+            <img src="./img/barbecue.png" alt="Pizza Barbecue" class="pizza-image">
+            <h3>Pizza Barbecue</h3>
+            <p class="price">R$ 35,00</p>
+            <p class="description">Molho de tomate, queijo mozzarella, manjericão fresco e azeite.</p>
+            <button class="order-button">Fazer Pedido</button>
+        </div>
+        <div class="menu-item" id="pizza2">
+            <img src="pizza2.jpg" alt="Pizza Calabresa" class="pizza-image">
+            <h3>Pizza Calabresa</h3>
+            <p class="price">R$ 40,00</p>
+            <p class="description">Calabresa, cebola e azeitonas.</p>
+            <button class="order-button">Fazer Pedido</button>
+        </div>
+        <div class="menu-item" id="pizza3">
+            <img src="pizza3.jpg" alt="Pizza Portuguesa" class="pizza-image">
+            <h3>Pizza Portuguesa</h3>
+            <p class="price">R$ 45,00</p>
+            <p class="description">Presunto, queijo, ovo, cebola, azeitonas e tomate.</p>
+            <button class="order-button">Fazer Pedido</button>
+        </div>
+        <!-- Adicione mais pizzas conforme necessário -->
+    </div>
+
+    <!-- Localização com o mapa -->
+    <div class="location">
+        <h2>Localização</h2>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3116.4133365953286!2d-77.03687099999999!3d38.9071505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7069b1f0d17%3A0x649d1d5b6d576eac!2sThe%20White%20House!5e0!3m2!1sen!2sus!4v1607505592853!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+
+    <!-- Botão para voltar à Home -->
+    <div class="back-home">
+        <a href="index.html" class="back-button">Voltar para a Home</a>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Meu Site de Pizzas. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Incluindo o Script JS -->
+    <script src="./script.js"></script>
+</body>
+</html>
